@@ -17,7 +17,7 @@ public class CalcWindow {
             stage.initModality(Modality.APPLICATION_MODAL);
             stage.initOwner(stage.getOwner());
             Parent root = FXMLLoader.load(CalcWindow.class.getResource("calculatorWindow.fxml"));
-            Scene scene = new Scene(root, 500, 500);
+            Scene scene = new Scene(root, 600, 400);
             stage.setTitle(title);
             stage.setScene(scene);
             stage.show();

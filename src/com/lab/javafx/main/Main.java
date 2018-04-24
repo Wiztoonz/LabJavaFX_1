@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage primaryStage) throws Exception{
+    public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("../main/main.fxml"));
         Scene scene = new Scene(root, 300, 171);
         scene.setCursor(Cursor.H_RESIZE);
