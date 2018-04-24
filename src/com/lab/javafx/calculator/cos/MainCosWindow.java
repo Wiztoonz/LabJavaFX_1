@@ -1,6 +1,6 @@
 package com.lab.javafx.calculator.cos;
 
-import com.lab.javafx.calculator.CalcWindow;
+
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -16,7 +16,7 @@ public class MainCosWindow {
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.initOwner(stage.getOwner());
         Parent root = FXMLLoader.load(MainCosWindow.class.getResource("cosWindow.fxml"));
-        Scene scene = new Scene(root, 600, 400);
+        Scene scene = new Scene(root, 466, 102);
         stage.setTitle(title);
         stage.setScene(scene);
         stage.show();

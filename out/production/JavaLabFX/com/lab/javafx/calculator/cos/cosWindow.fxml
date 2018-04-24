@@ -2,40 +2,40 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lab.javafx.calculator.cos.CosController">
-   <top>
-      <HBox prefHeight="71.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-         <children>
-            <TextField fx:id="firstNumber" alignment="CENTER" prefHeight="30.0" prefWidth="240.0">
-               <HBox.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-               </HBox.margin>
-            </TextField>
-            <Button mnemonicParsing="false" onAction="#cos_click" prefHeight="50.0" prefWidth="100.0" text="cos">
-               <HBox.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-               </HBox.margin>
-            </Button>
-            <TextField fx:id="secondNumber" alignment="CENTER" prefHeight="30.0" prefWidth="240.0">
-               <HBox.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-               </HBox.margin>
-            </TextField>
-         </children>
-      </HBox>
-   </top>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="102.0" prefWidth="466.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lab.javafx.calculator.cos.CosController">
+   <left>
+      <TextField fx:id="number" prefHeight="20.0" prefWidth="190.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="40.0" />
+         </BorderPane.margin>
+      </TextField>
+   </left>
    <center>
-      <TableView prefHeight="336.0" prefWidth="600.0" BorderPane.alignment="CENTER">
-        <columns>
-          <TableColumn fx:id="tableNumber" prefWidth="297.0" text="Number" />
-          <TableColumn fx:id="tableCosNumber" prefWidth="302.0" text="Cos" />
-        </columns>
-      </TableView>
+      <Button mnemonicParsing="false" onAction="#cos_click" prefHeight="18.0" prefWidth="68.0" text="COS" BorderPane.alignment="CENTER" />
    </center>
+   <right>
+      <TextField fx:id="cosNumber" editable="false" prefHeight="20.0" prefWidth="190.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" top="40.0" />
+         </BorderPane.margin>
+      </TextField>
+   </right>
+   <top>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text=" Number                                 =                               COS(Rad)" wrappingWidth="402.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="6.0" left="6.0" right="6.0" top="6.0" />
+         </BorderPane.margin>
+      </Text>
+   </top>
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#clear_click" prefHeight="18.0" prefWidth="68.0" text="Clear" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="5.0" left="5.0" right="5.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
 </BorderPane>
