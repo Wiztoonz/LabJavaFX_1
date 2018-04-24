@@ -60,7 +60,7 @@
             <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="4" />
             <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <Button mnemonicParsing="false" onAction="#clear_click" prefHeight="63.0" prefWidth="290.0" text="C" GridPane.columnIndex="3" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="cos" GridPane.rowIndex="4" />
+            <Button fx:id="cos_btn" mnemonicParsing="false" onAction="#cos_click" prefHeight="63.0" prefWidth="290.0" text="cos" GridPane.rowIndex="4" />
          </children>
       </GridPane>
    </center>

@@ -13,7 +13,10 @@ public class MainController {
 
     @FXML
     private TextField text;
-    public Button calc_button;
+    @FXML
+    private Button calc_button;
+
+
 
     @FXML
     private void ok_click() { text.setText(text.getText() + "!"); }
