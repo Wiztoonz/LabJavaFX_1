@@ -12,10 +12,15 @@ public class CosController {
 
     @FXML
     private void cos_click() {
-        cosNumber.setText("");
-        double value = Double.parseDouble(number.getText());
-        value = Math.cos(value);
-        cosNumber.setText(cosNumber.getText() + value);
+        if(Double.parseDouble(number.getText()) <= 0 || Double.parseDouble(number.getText()) >= 360 || Double.parseDouble(number.getText()) == 90) {
+            cosNumber.setText("");
+            cosNumber.setText(cosNumber.getText() + "Value < 0 or Value > 360 or Value != 90");
+        } else {
+            cosNumber.setText("");
+            double value = Double.parseDouble(number.getText());
+            value = Math.cos(value);
+            cosNumber.setText(cosNumber.getText() + value);
+        }
     }
 
     @FXML

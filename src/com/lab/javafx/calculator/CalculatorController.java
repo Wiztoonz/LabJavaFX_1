@@ -48,6 +48,8 @@ public class CalculatorController {
         promo.setText("");
         result.setText("");
         actions.setText("");
+        operation = "";
+        firstNumber = 0;
     }
     @FXML
     private void number_click(ActionEvent event) {
@@ -64,15 +66,26 @@ public class CalculatorController {
         if(!"=".equals(value)) {
             if(!operation.isEmpty()) return;
             operation = value;
-            firstNumber = Long.parseLong(promo.getText());
+            try {
+                firstNumber = Long.parseLong(promo.getText());
+            } catch (Exception e) {
+                actions.setText("");
+                actions.setText(actions.getText() + "Operation error click (C)");
+                promo.setText("");
+                result.setText("");
+            }
             promo.setText("");
         } else {
-            if (operation.isEmpty()) return;
-                result.setText(String.valueOf(numbers.calcilatorNumbers(firstNumber,Long.parseLong(promo.getText()),operation)));
+            try {
+                if (operation.isEmpty()) return;
+                result.setText(String.valueOf(numbers.calcilatorNumbers(firstNumber, Long.parseLong(promo.getText()), operation)));
                 actions.setText(firstNumber + operation + promo.getText() + value + result.getText());
                 promo.setText("");
                 operation = "";
                 flag = true;
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 

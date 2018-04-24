@@ -14,7 +14,7 @@
    <top>
       <StackPane prefHeight="40.0" prefWidth="300.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="text" alignment="CENTER_RIGHT" prefHeight="78.0" prefWidth="300.0">
+            <TextField fx:id="text" alignment="CENTER_RIGHT" editable="false" prefHeight="78.0" prefWidth="300.0">
                <StackPane.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
                </StackPane.margin>

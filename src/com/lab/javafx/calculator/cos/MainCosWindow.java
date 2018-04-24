@@ -15,8 +15,9 @@ public class MainCosWindow {
         Stage stage = new Stage();
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.initOwner(stage.getOwner());
+        stage.setResizable(false);
         Parent root = FXMLLoader.load(MainCosWindow.class.getResource("cosWindow.fxml"));
-        Scene scene = new Scene(root, 466, 102);
+        Scene scene = new Scene(root, 489, 102);
         stage.setTitle(title);
         stage.setScene(scene);
         stage.show();
