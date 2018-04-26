@@ -10,21 +10,24 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lab.javafx.calculator.CalculatorController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="mainBorderStyle" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lab.javafx.calculator.CalculatorController">
    <top>
       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField fx:id="promo" editable="false" prefHeight="33.0" prefWidth="600.0" StackPane.alignment="TOP_CENTER">
+            <TextField styleClass="textFieldStyle" fx:id="promo" editable="false" prefHeight="32.0" prefWidth="500.0" StackPane.alignment="TOP_CENTER">
                <StackPane.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
                </StackPane.margin>
             </TextField>
-            <TextField fx:id="result" editable="false" prefHeight="32.0" prefWidth="590.0" StackPane.alignment="BOTTOM_CENTER">
+            <TextField styleClass="textFieldStyle" fx:id="result" editable="false" prefHeight="32.0" prefWidth="500.0" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
-                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                  <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
                </StackPane.margin>
             </TextField>
-            <Label fx:id="actions" prefHeight="16.0" prefWidth="180.0" />
+            <Label styleClass="lableStyle" fx:id="actions" prefHeight="16.0" prefWidth="160.0">
+               <StackPane.margin>
+                  <Insets right="338.0" />
+               </StackPane.margin></Label>
          </children>
       </StackPane>
    </top>
@@ -44,23 +47,27 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="9" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="7" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="4" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="3" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="1" GridPane.columnIndex="2" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="+" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="*" GridPane.columnIndex="3" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="/" GridPane.columnIndex="3" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" onAction="#clear_click" prefHeight="63.0" prefWidth="290.0" text="C" GridPane.columnIndex="3" />
-            <Button fx:id="cos_btn" mnemonicParsing="false" onAction="#cos_click" prefHeight="63.0" prefWidth="290.0" text="cos" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="9" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="8" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="7" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="4" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="5" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="6" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="1" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#number_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonStyle" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationStyle" text="+" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationStyle" text="-" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationStyle" text="*" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationStyle" text="/" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#operation_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationStyle" text="=" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#clear_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationClear" text="C" GridPane.columnIndex="3" />
+            <Button fx:id="cos_btn" mnemonicParsing="false" onAction="#cos_click" prefHeight="63.0" prefWidth="290.0" styleClass="buttonOperationCos" text="cos" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" prefHeight="83.0" prefWidth="150.0" styleClass="voidBtn" wrapText="true" />
+            <Button disable="true" mnemonicParsing="false" prefHeight="83.0" prefWidth="150.0" styleClass="voidBtn" wrapText="true" GridPane.columnIndex="1" />
+            <Button disable="true" mnemonicParsing="false" prefHeight="83.0" prefWidth="150.0" styleClass="voidBtn" />
+            <Button disable="true" mnemonicParsing="false" prefHeight="83.0" prefWidth="150.0" styleClass="voidBtn" wrapText="true" GridPane.columnIndex="2" />
          </children>
       </GridPane>
    </center>

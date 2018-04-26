@@ -1,0 +1,88 @@
+.mainBorderStyle {
+    -fx-background-color: #7A005C;
+}
+
+.buttonStyle {
+    -fx-background-color: #5D4BD8;
+    -fx-text-fill: #FFC900;
+    -fx-border-radius: 0px;
+    -fx-border-color: #2A17B1;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.buttonStyle:hover {
+    -fx-background-color: #7D71D8;
+}
+
+.buttonStyle:pressed {
+    -fx-opacity: 80%;
+}
+
+.buttonOperationStyle {
+    -fx-background-color: #A60400;
+    -fx-text-fill: #FF7600;
+    -fx-border-radius: 0px;
+    -fx-border-color: #2A17B1;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.buttonOperationStyle:hover {
+    -fx-background-color: #FF0700;
+}
+
+.buttonOperationStyle:pressed {
+    -fx-opacity: 80%;
+}
+
+.buttonOperationClear {
+    -fx-background-color: #007730;
+    -fx-text-fill: #80E800;
+    -fx-border-radius: 0px;
+    -fx-border-color: #2A17B1;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.buttonOperationClear:hover {
+    -fx-background-color: #00B74A;
+}
+
+.buttonOperationClear:pressed {
+    -fx-opacity: 80%;
+}
+
+.buttonOperationCos {
+    -fx-background-color: #980023;
+    -fx-text-fill: #53DF00;
+    -fx-border-radius: 0px;
+    -fx-border-color: #2A17B1;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.buttonOperationCos:hover {
+    -fx-background-color: #B02C4B;
+}
+
+.buttonOperationCos:pressed {
+    -fx-opacity: 80%;
+}
+
+.voidBtn {
+    -fx-background-color: #7A005C;
+}
+
+.lableStyle {
+    -fx-text-fill: #FFEE00;
+    -fx-font-size: 20px;
+}
+
+.textFieldStyle {
+    -fx-background-color: #006064;
+    -fx-text-fill: #5DC8CD;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-border-color: #FFAB00;
+}

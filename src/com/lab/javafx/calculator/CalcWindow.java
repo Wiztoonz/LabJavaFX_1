@@ -19,6 +19,7 @@ public class CalcWindow {
             stage.setResizable(false);
             Parent root = FXMLLoader.load(CalcWindow.class.getResource("calculatorWindow.fxml"));
             Scene scene = new Scene(root, 600, 400);
+            scene.getStylesheets().add(CalcWindow.class.getResource("../styles/calculatorWindowStyle.css").toString());
             stage.setTitle(title);
             stage.setScene(scene);
             stage.show();
