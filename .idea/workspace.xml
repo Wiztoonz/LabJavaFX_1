@@ -8,10 +8,13 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/CalcWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/CalcWindow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/calculatorWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/calculatorWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/cos/CosController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/cos/CosController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/cos/cosWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaLabFX/com/lab/javafx/calculator/cos/cosWindow.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/lab/javafx/calculator/calculatorWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab/javafx/calculator/calculatorWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css" beforeDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,23 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CalcWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
+            <state relative-caret-position="180">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,28 +86,15 @@
       </file>
       <file leaf-file-name="calculatorWindow.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/calculatorWindow.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="49" />
-            </state>
-          </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file leaf-file-name="calculatorWindowStyle.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="CalculatorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,11 +105,21 @@
       <file leaf-file-name="MainCosWindow.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cosWindow.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -139,8 +127,8 @@
       <file leaf-file-name="CosController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,14 +136,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/MainController.java">
+      <file leaf-file-name="MassageWindow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/MassageWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="120">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="massageFXML.fxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/massageFXML.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -174,8 +172,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
         <option value="CSS File" />
       </list>
     </option>
@@ -195,17 +193,22 @@
         <option value="$PROJECT_DIR$/src/com/lab/javafx/MainController.java" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/main/main.fxml" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/lab/javafx/main/Main.java" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosWindow.fxml" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/main/MainController.java" />
-        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml" />
-        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java" />
-        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/Numbers.java" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java" />
-        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/calculatorWindow.fxml" />
         <option value="$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/styles/cosStyle/cosWindowStyle.css" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorStyle/mainWindowStyle/windowStyle.css" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/styles/cosWindowStyle.css" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/MassageWindow.java" />
+        <option value="$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/massageFXML.fxml" />
       </list>
     </option>
   </component>
@@ -236,7 +239,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,12 +269,23 @@
               <item name="JavaLabFX" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javafx" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="cos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaLabFX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaLabFX" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="cos" type="462c0819:PsiDirectoryNode" />
+              <item name="massage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,11 +308,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorStyle" />
       <recent name="$PROJECT_DIR$/src/com/lab/javafx/main/image" />
       <recent name="$PROJECT_DIR$/src/com/lab/javafx/main" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorStyle" />
       <recent name="$PROJECT_DIR$/src/com/lab/javafx/main/image" />
       <recent name="$PROJECT_DIR$/src/com/lab/javafx/main" />
     </key>
@@ -429,14 +444,15 @@
       <workItem from="1524682216747" duration="253000" />
       <workItem from="1524688052059" duration="42000" />
       <workItem from="1524697368497" duration="4327000" />
+      <workItem from="1524747305120" duration="10644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66812000" />
+    <option name="totallyTimeSpent" value="77456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="731" extended-state="6" />
+    <frame x="0" y="-4" width="1366" height="723" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -454,6 +470,7 @@
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5690073" visible="true" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -463,7 +480,6 @@
       <window_info anchor="right" id="JetGradle" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
       <window_info anchor="bottom" id="Changes" order="7" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Profiler" order="7" />
@@ -528,110 +544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="13" lean-forward="true" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="58" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -918,40 +830,65 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorWindow.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/cosStyle/cosWindowStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/mainWindowStyle/windowStyle.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/cosWindowStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="510">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="19" column="106" selection-start-line="19" selection-start-column="106" selection-end-line="19" selection-end-column="106" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -967,18 +904,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalcWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -986,17 +913,69 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/calculatorWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/CalculatorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/styles/calculatorWindowStyle.css">
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/MainCosWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/cosWindow.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/CosController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/massageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/MassageWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lab/javafx/calculator/cos/massage/massageFXML.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>

@@ -15,7 +15,7 @@
       </TextField>
    </left>
    <center>
-      <Button mnemonicParsing="false" onAction="#cos_click" prefHeight="18.0" prefWidth="68.0" text="COS" BorderPane.alignment="CENTER" />
+      <Button fx:id="cos_btnn" defaultButton="true" mnemonicParsing="false" onAction="#cos_click" prefHeight="18.0" prefWidth="68.0" styleClass="btnStyle" text="COS" BorderPane.alignment="CENTER" />
    </center>
    <right>
       <TextField fx:id="cosNumber" editable="false" prefHeight="20.0" prefWidth="200.0" BorderPane.alignment="CENTER">
@@ -32,7 +32,7 @@
       </Text>
    </top>
    <bottom>
-      <Button mnemonicParsing="false" onAction="#clear_click" prefHeight="18.0" prefWidth="68.0" text="Clear" BorderPane.alignment="CENTER">
+      <Button cancelButton="true" mnemonicParsing="false" onAction="#clear_click" prefHeight="18.0" prefWidth="68.0" styleClass="btnStyle" text="Clear" BorderPane.alignment="CENTER">
          <BorderPane.margin>
             <Insets bottom="5.0" left="5.0" right="5.0" />
          </BorderPane.margin>

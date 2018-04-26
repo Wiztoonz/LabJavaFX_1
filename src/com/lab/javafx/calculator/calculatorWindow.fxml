@@ -14,20 +14,17 @@
    <top>
       <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField styleClass="textFieldStyle" fx:id="promo" editable="false" prefHeight="32.0" prefWidth="500.0" StackPane.alignment="TOP_CENTER">
+            <TextField fx:id="promo" editable="false" prefHeight="32.0" prefWidth="500.0" styleClass="textFieldStyle" StackPane.alignment="TOP_CENTER">
                <StackPane.margin>
                   <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
                </StackPane.margin>
             </TextField>
-            <TextField styleClass="textFieldStyle" fx:id="result" editable="false" prefHeight="32.0" prefWidth="500.0" StackPane.alignment="BOTTOM_CENTER">
+            <TextField fx:id="result" editable="false" prefHeight="32.0" prefWidth="500.0" styleClass="textFieldStyle" StackPane.alignment="BOTTOM_CENTER">
                <StackPane.margin>
                   <Insets bottom="20.0" left="50.0" right="50.0" top="20.0" />
                </StackPane.margin>
             </TextField>
-            <Label styleClass="lableStyle" fx:id="actions" prefHeight="16.0" prefWidth="160.0">
-               <StackPane.margin>
-                  <Insets right="338.0" />
-               </StackPane.margin></Label>
+            <Label fx:id="actions" prefHeight="16.0" prefWidth="501.0" styleClass="lableStyle" />
          </children>
       </StackPane>
    </top>
